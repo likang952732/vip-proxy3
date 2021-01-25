@@ -1,0 +1,4 @@
+SELECT * from tb_user
+
+  where name = ? LIMIT ? ?
+管理员, 0, 10
