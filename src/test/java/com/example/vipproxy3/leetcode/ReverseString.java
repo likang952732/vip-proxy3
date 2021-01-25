@@ -30,9 +30,9 @@ public class ReverseString {
         int length = str.length();
         char temp;
         for (int i = 0, j = length-1; i < length/2; i++,j--){
-            temp = chars[i];
-            chars[i] = chars[j];
-            chars[j] = temp;
+           temp = chars[i];
+           chars[i] = chars[j];
+           chars[j] = temp;
         }
         return new String(chars);
     }
